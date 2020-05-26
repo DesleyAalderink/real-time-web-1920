@@ -8,6 +8,7 @@ Als er minimaal 2 personen in een room zitten zal de game beginnen. De gebruiker
 ## Table of Contents
 
 - [Setup en installeren](#setup-and-installation)
+- [API](#api)
 - [Diagram](#diagram)
 - [Mijn app](#my-app)
   - [Features](#features)
@@ -47,4 +48,20 @@ nodemon app.js
 **4. Open the app**
 Ga naar [localhost:3400](localhost:3400) in je browser om de app te zien.
 
+## API
+Voor deze opdracht heb ik de Twitter API gebruikt. Om toegang tot deze API te krijgen heb je een developer account nodig. Dit is sneller bereikt dan je zou denken. Na het aanmaken van een developer account krijg je de nodige gegevens om je applicatie hiermee te koppelen. Dat zijn: 
+
+- consumer_key
+- consumer_secret
+- access_token
+- access_token_secret
+
 ## Diagram
+-
+
+## Features
+- Gebruikers kunnen rooms aanmaken
+- Er is geen limiet van hoeveel mensen in een room kunnen
+- Gebruikers bepalen zelf wat het onderwerp van de room is
+- Het onderwerp is waar de Tweet op wordt gezocht
+- Typing game
