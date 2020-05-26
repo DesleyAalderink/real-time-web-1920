@@ -77,3 +77,6 @@ Voor deze opdracht heb ik de Twitter API gebruikt. Om toegang tot deze API te kr
 * `'startGame'` // Wanneer een room wordt aangemaakt zal dit worden verstuurd naar de server. De waiting room message zal weggehaald worden en de input velden komen tevoorschijn.
 * `'roundOver'` // Wanneer iemand gescoord heeft is een ronde voorbij en zal iedereen zie wie de ronde gewonnen heeft.
 * `'gameOver'` // Als een gebruiker in totaal 6 punten heeft bereikt zal de game eindigen en wordt iedereen terug in de lobby gezet.
+
+## License
+[MIT](LICENSE) © [Desley Aalderink](https://github.com/DesleyAalderink)
