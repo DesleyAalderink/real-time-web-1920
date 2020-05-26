@@ -78,5 +78,16 @@ Voor deze opdracht heb ik de Twitter API gebruikt. Om toegang tot deze API te kr
 * `'roundOver'` // Wanneer iemand gescoord heeft is een ronde voorbij en zal iedereen zie wie de ronde gewonnen heeft.
 * `'gameOver'` // Als een gebruiker in totaal 6 punten heeft bereikt zal de game eindigen en wordt iedereen terug in de lobby gezet.
 
+## Checklist
+- [x] Rooms aanmaken
+- [x] Users bepalen zelf waar Twitter op zoekt
+- [x] Meerdere gebruikers in meerdere rooms
+- [x] Gebruikers moeten de Tweet succesvol overtypen en krijgen hier feedback van
+- [x] Gebruikers krijgen punten per ronde
+- [x] Een uiteindelijke winnaar wordt bepaald en iedereen wordt teruggezet in de lobby
+
+### Wishlist
+* Concept veranderen naar: gebruikers moeten de Tweet raden die komt
+
 ## License
 [MIT](LICENSE) © [Desley Aalderink](https://github.com/DesleyAalderink)
