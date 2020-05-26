@@ -1,5 +1,7 @@
 # Real-Time Web @cmda-minor-web · 2019-2020
 
+![THumbnail](thumb.png)
+
 ## Introductie
 Voor deze opdracht heb ik besloten een typing game te maken. Gebruikers komen op een "lobby" scherm waar ze een room kunnen aanmaken. De naam van de room zal de hashtagg zijn waarop gezocht kan worden. Er kunnen dus meerdere rooms worden aangemaakt. Als een persoon een room heeft aangemaakt zal er gevraagd worden of ze hun naam willen invoeren. Dit is de naam die beslist per ronde wie er gewonnen heeft en wie er uiteindelijk de winnaar is.
 
