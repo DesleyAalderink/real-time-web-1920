@@ -11,10 +11,12 @@ Als er minimaal 2 personen in een room zitten zal de game beginnen. De gebruiker
 - [API](#api)
 - [Diagram](#diagram)
 - [Mijn app](#my-app)
-  - [Features](#features)
-  - [Data ophalen](#getting-data)
-  - [Game](#game)
-  - [Score](#score)
+- [Features](#features)
+- [License](#license)
+- [Client to server events](#client-to-server-events)
+- [Server to client events](#server-to-client-events)
+- [Checklist])#checklist)
+- [Wishlist](#wishlist)
 - [License](#license)
 
 ## Setup en installeren
