@@ -65,3 +65,15 @@ Voor deze opdracht heb ik de Twitter API gebruikt. Om toegang tot deze API te kr
 - Gebruikers bepalen zelf wat het onderwerp van de room is
 - Het onderwerp is waar de Tweet op wordt gezocht
 - Typing game
+
+## Client to server events
+* `'new-user'` // Wanneer een gebruiker zijn naam heeft opgegeven wordt deze opgeslagen samen met een score van 0 en de socket.id
+* `'initiate game'` // Wanneer er genoeg gebruikers zijn wordt deze gevuurd. De API call wordt gemaakt en de Tweet wordt opgehaald.
+* `'score'` // Wanneer iemand de Tweet succesvol heeft overgetypt zal deze geactiveerd worden. Er wordt gekeken wie er heeft gescoord en als de punten aantal 6 is zal de game eindigen.
+
+## Server to client events
+* `'roundUpdate'` // Houdt de rondes bij per room.
+* `'room-created'` // Wanneer een room wordt aangemaakt zal dit worden verstuurd naar de server.
+* `'startGame'` // Wanneer een room wordt aangemaakt zal dit worden verstuurd naar de server. De waiting room message zal weggehaald worden en de input velden komen tevoorschijn.
+* `'roundOver'` // Wanneer iemand gescoord heeft is een ronde voorbij en zal iedereen zie wie de ronde gewonnen heeft.
+* `'gameOver'` // Als een gebruiker in totaal 6 punten heeft bereikt zal de game eindigen en wordt iedereen terug in de lobby gezet.
