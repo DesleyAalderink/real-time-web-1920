@@ -1,0 +1,26 @@
+<% include partial/head.ejs %>
+    <script>
+      const roomName = "<%= roomName %>"
+    </script>
+    <h1>Socket Game</h1>
+    <div class="timer none" id="timer"></div>
+    <p id="counter"></p>
+    <div id="popup" class="popup">
+      <div id="message-container"></div>
+      <form id="send-container">
+        <!-- <input type="text" id="message-input"> -->
+        <!-- <button type="submit" id="send-button">Send</button> -->
+      </form>
+      <h2>Waiting for other player...</h2>
+
+      <!-- <input id="username" placeholder="Username" type="text" name="" value=""> -->
+      <!-- <label id="usernamelabel" placeholder="Username" for="username">Username</label> -->
+      <!-- <button id="startButton">play</button> -->
+    </div>
+    <p id="winner" class="none"></p>
+    <div id="container" class="none">
+      <div class="quote-display" id="quoteDisplay"></div>
+      <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+    </div>
+
+<% include partial/tail.ejs %>

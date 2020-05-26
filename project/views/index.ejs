@@ -1,0 +1,14 @@
+<% include partial/head.ejs %>
+
+    <h1>Socket Game waiting room</h1>
+<div id="room-container">
+  <% Object.keys(rooms).forEach(room => { %>
+    <div><%= room %></div>
+    <a href="/<%= room %>">Join</a>
+  <% }) %>
+</div>
+<form action="/room" method="post">
+  <input id="roomname" type="text" name="room" required">
+  <button type="submit">New Room</button>
+</form>
+<% include partial/tail.ejs %>
