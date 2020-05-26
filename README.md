@@ -59,7 +59,8 @@ Voor deze opdracht heb ik de Twitter API gebruikt. Om toegang tot deze API te kr
 - access_token_secret
 
 ## Diagram
--
+![Data flow](dataflow.jpg)
+
 
 ## Features
 - Gebruikers kunnen rooms aanmaken
