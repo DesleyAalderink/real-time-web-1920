@@ -7,7 +7,7 @@ Voor deze opdracht heb ik besloten een typing game te maken. Gebruikers komen op
 
 Als er minimaal 2 personen in een room zitten zal de game beginnen. De gebruikers krijgen een Tweet te zien gerelateerd aan het onderwerp waar de room is op gebasseerd en moeten dan zo snel mogelijk dit overtypen. De persoon die het eerste klaar is krijgt een punt. Nadat een persoon vijf punten heeft behaald is de game voorbij en wordt de winnaar getoond aan iedereen. Na een paar seconden wordt iedereen in de room terug gestuurd naar de lobby. 
 
-Live demo: <a href"http://7cff8be8.ngrok.io/">Hier</a>
+Live demo: <a href="http://7cff8be8.ngrok.io/">Hier</a>
 
 ## Table of Contents
 
